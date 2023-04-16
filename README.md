@@ -1,1 +1,1 @@
-# Seahorse Instagram
+Web weave decentralized social media app
