@@ -33,13 +33,21 @@ const style = {
 const Header = ({ setCreatePostModalOpen }) => {
     const router = useRouter()
 
-    const hasUserAccount = true
-
+    //SOLANA STUFF
+    const {
+        isConnected,
+        wallet,
+        hasUserAccount,
+        posts,
+        createUser,
+        createPost,
+        updatePost,
+    } = useGlobalState();
     return (
         <nav className={style.wrapper}>
             <div className={style.headerContainer}>
                 <div className={style.logoContainer}>
-                    <Image src={"/logo.png"} className={style.image} layout='fill' />
+                    <Image src={"/WebWeave.png"} className={style.image} layout='fill' />
                 </div>
 
                 <div className={style.headerMain}>
@@ -52,7 +60,7 @@ const Header = ({ setCreatePostModalOpen }) => {
                         <></>
                     )}
                     {/* Phantom Connect Button Goes Here */}
-                    <button className={style.button}>Connect Wallet Here</button>
+                    <WalletMultiButton />
                 </div>
             </div>
         </nav>

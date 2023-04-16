@@ -35,22 +35,22 @@ export default function Home() {
       owner: 11111111111,
       id: 0,
       likes: 0,
-      title: "Merry Christmas 🎄",
-      image: "https://images.unsplash.com/photo-1605744435343-bd38c8e97892?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
+      title: "A picture of Thapar",
+      image: "/gettyimages-1288678545-1024x1024.jpg"
     },
     {
       owner: "Ac1nbnsdj1",
       id: 1,
       likes: 0,
-      title: "Another day!",
-      image: "https://images.unsplash.com/photo-1482575832494-771f74bf6857?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
+      title: "Another picture of Thapar!",
+      image: "/gettyimages-1288678566-1024x1024.jpg"
     },
     {
       owner: "rafeh.qazi",
       id: 2,
       likes: 0,
-      title: "Can't wait to show you the new videos I've been planning! 💡",
-      image: "https://miro.medium.com/max/720/1*JpmEinPoAm4snR5fFa_dkQ.jpeg"
+      title: "Yep, another one!",
+      image: "/gettyimages-1288712765-1024x1024.jpg"
     },
   ]
 

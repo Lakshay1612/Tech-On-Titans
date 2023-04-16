@@ -1,65 +1,59 @@
 export const data = {
     stories: [
         {
-            username: 'cleverqazi',
+            username: 'amber',
             image:
-                'https://pbs.twimg.com/profile_images/1492902736592969732/asuDqTgR_400x400.jpg',
+                '/20230403_184452.jpg',
         },
         {
-            username: 'cp',
+            username: 'sharub',
             image:
-                'https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/284832/settings_images/rLlCifhXRJiT0RoN2FjK_Logo_roundbackground_black.png',
+                '/sharub.jpg',
         },
         {
-            username: 'zuck',
+            username: 'lakshay',
             image:
-                'https://i.insider.com/6329911dedbe7f00190ef740?width=1136&format=jpeg',
+                '/WhatsApp Image 2023-04-16 at 07.46.58.jpeg',
         },
         {
-            username: 'elonmusk',
+            username: 'ruban',
             image:
-                'https://upload.wikimedia.org/wikipedia/commons/3/34/Elon_Musk_Royal_Society_%28crop2%29.jpg',
+                '/WhatsApp Image 2023-04-16 at 07.48.20.jpeg',
         },
         {
-            username: 'mkbhd',
-            image: 'https://pbs.twimg.com/media/EK2imELWwAA3FQt.jpg:large',
-        },
-
-        {
-            username: 'mrbeast',
-            image:
-                'https://yt3.googleusercontent.com/ytc/AMLnZu9UlPHTbLrgfwt0ucUKik9Z8DfO6dVgVnfum2o9hA=s176-c-k-c0x00ffffff-no-rj-mo',
+            username: 'ayesha',
+            image: '/ayesha.jpg',
         },
     ],
     suggestions: [
         {
-            username: 'cleverqazi',
+            username: 'amber',
             image:
-                'https://pbs.twimg.com/profile_images/1492902736592969732/asuDqTgR_400x400.jpg',
+                '/20230403_184452.jpg',
             text: 'Followed by testuser + 16 more',
         },
         {
-            username: 'cleverprogrammer',
+            username: 'sharub',
             image:
-                'https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/284832/settings_images/rLlCifhXRJiT0RoN2FjK_Logo_roundbackground_black.png',
-            text: 'Followed by cleverqazi + 22 more',
+                '/sharub.jpg',
+            text: 'Followed by testuser + 22 more',
         },
         {
-            username: 'zuck',
+            username: 'lakshay',
             image:
-                'https://i.insider.com/6329911dedbe7f00190ef740?width=1136&format=jpeg',
-            text: 'Followed by cleverqazi + 2 more',
+                '/WhatsApp Image 2023-04-16 at 07.46.58.jpeg',
+            text: 'Followed by testuser + 2 more',
         },
         {
-            username: 'elonmusk',
+            username: 'ruban',
             image:
-                'https://upload.wikimedia.org/wikipedia/commons/3/34/Elon_Musk_Royal_Society_%28crop2%29.jpg',
-            text: 'Followed by cleverqazi + 10 more',
+                '/WhatsApp Image 2023-04-16 at 07.48.20.jpeg',
+            text: 'Followed by testuser + 10 more',
         },
         {
-            username: 'mkbhd',
-            image: 'https://pbs.twimg.com/media/EK2imELWwAA3FQt.jpg:large',
-            text: 'Followed by elonmusk + 7 more',
+            username: 'ayesha',
+            image: '/ayesha.jpg',
+            text: 'Followed by testuser + 7 more',
         },
     ],
 }
